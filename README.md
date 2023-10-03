@@ -67,3 +67,19 @@ O se puede utilizar el operador 'OR'
 'SELECT * FROM cliente WHERE nombre LIKE '%a%'
 
 ![consultas7](./img/7%20(1).png)
+
+### Consulta No. 8
+
+8. Se desea obtener los registros donde la cuarta letra del nombre del cliente sea la letra 'a' 
+
+'SELECT * FROM Cliente WHERE nombre LIKE '___a'
+
+![consultas8](./img/8%20(1).png)
+
+### Consultas No. 9 
+
+9. Si se desea obtener los registros cuya identificacion este entre el intervalo 110 y 150, se debe utilizar la clausula 'BETWEEN' que sirve para especificar un intervalo de vaores.
+
+'SELECT * FROM Clientes WHERE identificacion BETWEEN 110 AND 150
+
+![consultas9](./img/9%20(1).png)
